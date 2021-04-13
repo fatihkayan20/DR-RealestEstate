@@ -1,0 +1,23 @@
+.home{
+    &__form{
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+
+        @include respond(tab-port){
+            margin-bottom: 6rem;
+            margin-top: 4rem;
+
+            width: 80%;
+            margin-left: 10%;
+        }
+    }
+    
+
+    &__listings{
+        margin-bottom: 4rem;
+    }
+
+    &__pagination{
+        margin-bottom: 6rem;
+    }
+}

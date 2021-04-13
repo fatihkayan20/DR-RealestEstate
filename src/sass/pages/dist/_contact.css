@@ -1,0 +1,10 @@
+.contact {
+  margin-bottom: 6rem;
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  margin-left: 20%;
+  margin-right: 20%;
+}
